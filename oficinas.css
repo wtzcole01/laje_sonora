@@ -199,3 +199,19 @@ h1, h2, h3 {
     margin-top: 10px;
     font-weight: 700;
   }
+  @media (max-width: 800px) {
+    .oficina,
+    .rodape-colunas {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .titulo-pagina {
+      font-size: 96px;
+    }
+  
+    .oficina .foto,
+    .oficina-detalhes {
+      width: 100%;
+    }
+  }
