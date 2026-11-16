@@ -9,7 +9,7 @@
     --concreto-escuro: #cBC7BE;
     --tinta: #0F1E3D;
     --caixa-dagua: #1F5FBF;
-    --fita: #23c2f3;
+    --fita: #F3C623;
     --branco: #FFFFFF;
   
     --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
@@ -182,3 +182,51 @@
     align-items: center;
     gap: 8px;
   }
+
+  .formulario label,
+.formulario legend {
+  font-weight: 700;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--tinta);
+  background-color: var(--concreto);
+  font-family: var(--fonte-texto);
+  font-size: 17px;
+  color: var(--tinta);
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+  outline: 3px solid var(--caixa-dagua);
+  outline-offset: 2px;
+  background-color: var(--branco);
+}
+
+.formulario textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.formulario .opcao label {
+  font-weight: 500;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--caixa-dagua);
+}
