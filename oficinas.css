@@ -2,118 +2,121 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
+  }
+  
+  :root {
     --concreto: #e2DFD8;
     --concreto-escuro: #cBC7BE;
     --tinta: #0F1E3D;
     --caixa-dagua: #1F5FBF;
     --fita: #F3C623;
     --branco: #FFFFFF;
-
+  
     --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
     --fonte-texto: "Archivo", Arial, sans-serif;
-}
-
-body {
+  }
+  
+  body {
     background-color: var(--concreto);
     color: var(--tinta);
     font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
-}
-
-a {
+  }
+  
+  a {
     color: inherit;
-}
-
-h1, h2, h3 {
+  }
+  
+  h1, h2, h3 {
     font-family: var(--fonte-cartaz);
     font-weight: 900;
     line-height: 0.95;
-}
-
-.conteudo {
+  }
+  
+  .conteudo {
     max-width: 1200px;
     margin-inline: auto;
     padding-inline: 32px;
-}
-.topo {
-    padding-block: 28px;
+  }
+  
+  .topo {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 28px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
+  }
+  
+  .logo {
     font-family: var(--fonte-cartaz);
     font-size: 34px;
     font-weight: 900;
     text-decoration: none;
-}
-
-.menu {
+  }
+  
+  .menu {
     display: flex;
     gap: 36px;
-}
-
-.menu a {
+  }
+  
+  .menu a {
     font-weight: 600;
     text-decoration: none;
     padding-bottom: 4px;
     border-bottom: 4px solid transparent;
-}
-
-.menu a:hover {
+  }
+  
+  .menu a:hover {
     border-bottom-color: var(--tinta);
-}
-
-.menu a.atual {
+  }
+  
+  .menu a.atual {
     border-bottom-color: var(--fita);
-}
-
-.foto {
+  }
+  
+  .foto {
     background-color: var(--concreto-escuro);
-}
-
-.foto-azul {
+  }
+  
+  .foto-azul {
     background-color: var(--caixa-dagua);
-}
-
-.foto-amarela {
+  }
+  
+  .foto-amarela {
     background-color: var(--fita);
-}
-
-.foto-tinta {
+  }
+  
+  .foto-tinta {
     background-color: var(--tinta);
-}
-
-.rodape {
+  }
+  
+  .rodape {
     margin-top: 120px;
     background-color: var(--tinta);
     color: var(--concreto);
     padding-top: 56px;
     padding-bottom: 56px;
-}
-
-.rodape-colunas {
+  }
+  
+  .rodape-colunas {
     display: flex;
     gap: 40px;
-}
-
-.rodape-coluna {
+  }
+  
+  .rodape-coluna {
     flex: 1;
-}
-
-.rodape h4 {
+  }
+  
+  .rodape h4 {
     font-family: var(--fonte-cartaz);
     font-size: 28px;
     color: var(--fita);
     margin-bottom: 12px;
-}
-
-.titulo-pagina {
+  }
+  
+  .titulo-pagina {
     font-size: 160px;
     margin-top: 24px;
   }
@@ -199,6 +202,7 @@ h1, h2, h3 {
     margin-top: 10px;
     font-weight: 700;
   }
+  
   @media (max-width: 800px) {
     .oficina,
     .rodape-colunas {
